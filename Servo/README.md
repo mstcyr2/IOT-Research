@@ -28,8 +28,8 @@ https://www.youtube.com/watch?v=_fdwE4EznYo <br>
 https://github.com/garyexplains/examples/tree/master/servo <br>
 
 <h4>Images</h4>
-![20150412_200717-600x484](https://user-images.githubusercontent.com/98985878/164813562-aeead17d-a86d-494d-94c3-9768ef8e345f.png) <br>
-![IMG_0308](https://user-images.githubusercontent.com/98985878/164814225-3ef43250-2301-45ea-b63f-80a998802dee.jpg) <br>
+<img src="https://user-images.githubusercontent.com/98985878/164813562-aeead17d-a86d-494d-94c3-9768ef8e345f.png"> <br>
+<img src="https://user-images.githubusercontent.com/98985878/164814225-3ef43250-2301-45ea-b63f-80a998802dee.jpg"> <br>
 
 
 <h2>Instructions</h2>
