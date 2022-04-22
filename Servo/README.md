@@ -33,6 +33,6 @@ https://github.com/garyexplains/examples/tree/master/servo <br>
 
 
 <h2>Instructions</h2>
-1. Open "watch-tower.py" in Python editor <br>
+1. Open "watch_tower.py" in Python editor <br>
 2. Enter "sudo pigpiod" into terminal <br>
 3. Run code in Python editor <br>
