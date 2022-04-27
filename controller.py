@@ -57,7 +57,7 @@ while True:
         
         servo.value = math.sin(math.radians(pos))
 
-        sleep(1)
+        sleep(0.1)
 
     except KeyboardInterrupt:
         pass
