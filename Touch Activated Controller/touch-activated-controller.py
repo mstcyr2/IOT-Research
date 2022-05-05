@@ -5,10 +5,40 @@ from signal import signal, SIGTERM, SIGHUP, pause
 from smbus import SMBus
 from time import sleep
 import math
+import smtplib
+
+SMTP_SERVER = 'smtp.gmail.com' #Email Server (don't change!)
+SMTP_PORT = 587 #Server Port (don't change!)
+GMAIL_USERNAME ='' 
+GMAIL_PASSWORD = ''
+
+
+class Emailer:
+	def sendmail(self, recipient,  subject, content):
+		#Creating the headers
+		headers = ["From: " + GMAIL_USERNAME, "Subject: " +subject, 
+			"To: " + recipient, "MIME-Version 1.0", "Content-Type: text/html"]
+		headers = "\r\n".join(headers)
+
+		#Connect to Gmail Server
+		session = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
+		session.ehlo()
+		session.starttls()
+		session.ehlo()
+
+		#Login to Gmail
+		session.login(GMAIL_USERNAME, GMAIL_PASSWORD)
+
+		#Send Email & Exit
+		session.sendmail(GMAIL_USERNAME, recipient, headers + "\r\n\r\n" + content)
+		session.quit
+
+
+sender = Emailer()
+
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(13, GPIO.IN)
-
 
 
 bus = SMBus(0)
@@ -28,6 +58,12 @@ while True:
         if GPIO.input(13):
             
             print("Activated!")
+
+            sendTo = ''
+            emailSubject = "Touch Activated Controller Project"
+            emailContent = "Controller activated!"
+
+            sender.sendmail(sendTo, emailSubject, emailContent)
             
             while GPIO.input(13):
                 signal(SIGTERM, safe_exit)

@@ -6,6 +6,36 @@ from time import sleep
 from gpiozero import Servo
 from spidev import SpiDev
 import math
+import smtplib
+
+SMTP_SERVER = 'smtp.gmail.com' #Email Server (don't change!)
+SMTP_PORT = 587 #Server Port (don't change!)
+GMAIL_USERNAME ='' 
+GMAIL_PASSWORD = ''
+
+
+class Emailer:
+	def sendmail(self, recipient,  subject, content):
+		#Creating the headers
+		headers = ["From: " + GMAIL_USERNAME, "Subject: " +subject, 
+			"To: " + recipient, "MIME-Version 1.0", "Content-Type: text/html"]
+		headers = "\r\n".join(headers)
+
+		#Connect to Gmail Server
+		session = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
+		session.ehlo()
+		session.starttls()
+		session.ehlo()
+
+		#Login to Gmail
+		session.login(GMAIL_USERNAME, GMAIL_PASSWORD)
+
+		#Send Email & Exit
+		session.sendmail(GMAIL_USERNAME, recipient, headers + "\r\n\r\n" + content)
+		session.quit
+
+
+sender = Emailer()
 
 from gpiozero.pins.pigpio import PiGPIOFactory
 factory = PiGPIOFactory()
@@ -42,6 +72,11 @@ def read_max(input):
         value = read_ads7830(input)
 
         yield (value-128)/127 if value > 140 else 0
+
+
+startingX = no_drift(6)
+startingY = no_drift(7)
+startingPos = math.sqrt(startingX*startingX + startingY*startingY)
         
 while True:
     try:
@@ -56,6 +91,13 @@ while True:
         pos = math.sqrt(x*x + y*y)
         
         servo.value = math.sin(math.radians(pos))
+
+        if pos < startingPos-20 or pos > startingPos+20:
+            sendTo = 'testiotprojects@gmail.com'
+            emailSubject = "Servo Controller Project"
+            emailContent = f"Servo Position: {pos} degrees"
+
+            sender.sendmail(sendTo, emailSubject, emailContent)
 
         sleep(0.1)
 
