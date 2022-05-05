@@ -78,7 +78,7 @@ try:
             GPIO.output(enablePin, GPIO.LOW)
             
 except KeyboardInterrupt:
-    sendTo = 'testiotprojects@gmail.com'
+    sendTo = ''
     emailSubject = "Humidity Sensor w/ Fan Project"
     emailContent = "Starting: ("+ "Temp={0:0.1f}*F Humidity={1:0.1f}%".format((startTemp*9/5) + 32, startHum) + ") \n While fan is on: (" + str(fanON) + ")"
 
