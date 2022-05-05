@@ -37,13 +37,13 @@ Using Male-Male jumpers: <br>
 1. Connect 3.3V pin to (+) on breadboard <br>
 2. Connect GND to (-) on breadboard <br>
 
-<h4>Relevant Links/Resouces</h4>
+<h2>Relevant Links/Resouces</h2>
 https://www.youtube.com/watch?v=fX225p-Sh58 <br>
 https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c <br>
 https://www.youtube.com/watch?v=_fdwE4EznYo <br>
 https://github.com/garyexplains/examples/tree/master/servo <br>
 
-<h4>Images</h4>
+<h2>Images</h2>
 
 
 
