@@ -47,8 +47,10 @@ https://www.instructables.com/DC-Motor-Control-With-Raspberry-Pi-and-L293D/ <br>
 
 <h2>Images</h2>
 
+![Picture1](https://user-images.githubusercontent.com/98985878/167033678-340768cc-27fc-4826-8c09-38dc3b84dfee.png)
 
 <h2>Instructions</h2>
 1. Open "humidity.py" in Python editor <br>
 2. Run code in Python editor <br>
 3. Use breath or steam to increase humidity <br>
+
