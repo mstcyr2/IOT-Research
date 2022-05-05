@@ -93,7 +93,7 @@ while True:
         servo.value = math.sin(math.radians(pos))
 
         if pos < startingPos-20 or pos > startingPos+20:
-            sendTo = 'testiotprojects@gmail.com'
+            sendTo = ''
             emailSubject = "Servo Controller Project"
             emailContent = f"Servo Position: {pos} degrees"
 
