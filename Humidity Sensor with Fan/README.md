@@ -6,7 +6,7 @@
 4. DHT11 <br>
 5. 10K Resistor <br>
 6. L293D <br>
-7. Breadboard Power Supply Module
+7. Breadboard Power Supply Module <br>
 8. 12 Male-Male jumpers <br>
 9. 2 Male-Female jumpers <br>
 
