@@ -1,10 +1,10 @@
-# Servo Motor Controller
+# Touch Activated Controller
 <h2> Materials </h2>
 1. Raspberry Pi 4 <br>
 2. GPIO Extension Board <br>
 3. Bread Board <br>
 4. ADS7830 <br>
-5. Micro Servo Motor <br>
+5. Touch Sensor Module <br>
 6. Analog Joystick <br>
 7. 8 Male-Male jumpers <br>
 8. 4 Male-Female jumpers <br>
