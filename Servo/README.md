@@ -10,13 +10,13 @@
 
 <h2>Set-Up</h2>
 <h4>Servo Motor</h4>
-Using Male-Male jumpers:
+Using Male-Male jumpers: <br>
 1. Connect brown wire to ground on breadboard <br>
 2. Connect orange wire to GPIO12 pin on breadboard <br>
 3. Connect red wire to 5V pin on breadboard <br>
 
 <h4>PIR Motion Sensor</h4>
-Using Male-Female jumpers:
+Using Male-Female jumpers: <br>
 1. Connect (-) to ground on breadboard <br>
 2. Connect (S) to GPIO4 pin on breadboard <br>
 3. Connect (+) to 5V pin on breadboard <br> 
