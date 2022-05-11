@@ -30,6 +30,7 @@ https://pimylifeup.com/raspberry-pi-humidity-sensor-dht22/ <br>
 
 <h2>Images</h2>
 
+![IMG_0492](https://user-images.githubusercontent.com/98985878/167806838-da39b685-d3de-4d59-a00c-d6f6f6c998fb.jpg)
 
 
 <h2>Instructions</h2>
