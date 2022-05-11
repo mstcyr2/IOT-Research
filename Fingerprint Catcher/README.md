@@ -50,6 +50,8 @@ https://tutorials-raspberrypi.com/how-to-use-raspberry-pi-fingerprint-sensor-aut
 
 <h2>Images</h2>
 
+![IMG_0527 (1)](https://user-images.githubusercontent.com/98985878/167806578-ccc5d7b6-5d91-4cae-bbea-e726a0317f60.jpg)
+
 
 <h2>Instructions</h2>
 Register an authorized fingerprint:
