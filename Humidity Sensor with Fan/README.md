@@ -47,7 +47,9 @@ https://www.instructables.com/DC-Motor-Control-With-Raspberry-Pi-and-L293D/ <br>
 
 <h2>Images</h2>
 
-![Picture1](https://user-images.githubusercontent.com/98985878/167033678-340768cc-27fc-4826-8c09-38dc3b84dfee.png)
+![Picture1](https://user-images.githubusercontent.com/98985878/167033678-340768cc-27fc-4826-8c09-38dc3b84dfee.png) <bbr>
+![IMG_0529](https://user-images.githubusercontent.com/98985878/167805502-d503acd3-ff38-413d-9683-f7b9c8856446.PNG)
+
 
 <h2>Instructions</h2>
 1. Open "humidity.py" in Python editor <br>
