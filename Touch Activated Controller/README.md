@@ -19,7 +19,7 @@
 Using Male-Female jumpers: <br>
 1. Connect GND to (-) on breadboard <br>
 2. Connect 5V to (+) pin on breadboard <br> 
-3. Connect VRX to A6 on ADS7830
+3. Connect VRX to A6 on ADS7830 <br>
 4. Connect VRY to A7 on ADS7830
 
 <h4>ADC ADS7830</h4>
