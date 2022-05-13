@@ -21,8 +21,8 @@ from email import encoders
 
 SMTP_SERVER = 'smtp.gmail.com' #Email Server (don't change!)
 SMTP_PORT = 587 #Server Port (don't change!)
-GMAIL_USERNAME ='testiotprojects@gmail.com' 
-GMAIL_PASSWORD = 'Tigers@TU!'
+GMAIL_USERNAME ='' 
+GMAIL_PASSWORD = ''
 
 
 msg = MIMEMultipart()
