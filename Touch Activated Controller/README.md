@@ -42,6 +42,7 @@ https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configurin
 
 <h2>Images</h2>
 
+![IMG_0553](https://user-images.githubusercontent.com/98985878/168316917-1d0a5906-042c-4d09-9a60-09ce0ba7c131.jpg)
 
 
 <h2>Instructions</h2>
