@@ -47,6 +47,7 @@ sudo nano /boot/config.txt
 
 <h2>Relevant Links/Resouces</h2>
 https://tutorials-raspberrypi.com/how-to-use-raspberry-pi-fingerprint-sensor-authentication/<br>
+https://www.code-learner.com/python-send-html-image-and-attachment-email-example/
 
 <h2>Images</h2>
 
