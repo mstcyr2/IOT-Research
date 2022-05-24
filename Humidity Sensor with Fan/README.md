@@ -16,7 +16,7 @@ Using Male-Male jumpers: <br>
 1. Connect resistor from OUT pin on DHT11 to (+) pin on DHT11 <br>
 2. Connect (-) to (-) on right side of breadboard <br>
 3. Connect OUT to GPIO4 pin on breadboard <br>
-4. Connect (+) to (-) on right side of breadboard <br>
+4. Connect (+) to (+) on right side of breadboard <br>
 
 <h4>Breadboard Power Supply Module</h4>
 1. Align (+) and (-) pins with (+) and (-) pins on the breadboard <br>
