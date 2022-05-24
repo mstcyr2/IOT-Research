@@ -41,7 +41,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(13, GPIO.IN)
 
 
-bus = SMBus(0)
+bus = SMBus(1)
 ads7830_commands = (0x84, 0xc4, 0x94, 0xd4, 0xa4, 0xe4, 0xb4, 0xf4)
 
 
