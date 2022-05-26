@@ -63,13 +63,18 @@ Register an authorized fingerprint:
 
 Create fingerprint-catcher.py:
   ```
-  sudo nano /usr/share/doc/python-fingerprint/fingerprint-catcher.py
+  sudo nano fingerprint-catcher.py
   ```
+  or create file in python editor of choice.
 
 Copy code from https://github.com/mstcyr2/IOT-Research/blob/main/Fingerprint%20Catcher/fingerprint-catcher.py into new file. <br>
 
 Run code:
   ```
-  sudo nano /usr/share/doc/python-fingerprint/fingerprint-catcher.py
+  python2 fingerprint-catcher.py
+  ```
+  or
+  ```
+  python fingerprint-catcher.py
   ```
 Follow instructions in terminal
